@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import sys
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     count = len(sys.argv)
     count -= 1
     result = 0
