@@ -4,8 +4,8 @@ from sys import argv
 if __name__ == "__main__":
     count = len(argv)
     count -= 1
-    arg1 = "argument: "
-    arg2 = "arguments: "
+    arg1 = "argument:"
+    arg2 = "arguments:"
     if count == 0:
         print("{} arguments.".format(count))
     else:
