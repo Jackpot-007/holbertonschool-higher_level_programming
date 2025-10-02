@@ -3,7 +3,6 @@
 from BaseGeometry (7-base_geometry.py).
 """
 
-
 import sys
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
