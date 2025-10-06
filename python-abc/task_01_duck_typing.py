@@ -33,10 +33,6 @@ class Rectangle(Shape):
         return 2 * (self.width + self.height)
 
 def shape_info(shape):
-    """
-    Prints the area and perimeter of a given shape object,
-    relying on duck typing for the presence of area() and perimeter() methods.
-    """
     print(f"Area: {shape.area():.2f}")
     print(f"Perimeter: {shape.perimeter():.2f}")
 
