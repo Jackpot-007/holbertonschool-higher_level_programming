@@ -25,15 +25,12 @@ class FlyingFish(Fish, Bird):
     def habitat(self):
         print("The flying fish lives both in water and the sky!")
 
-# Instantiate an object of the FlyingFish class
 flying_fish = FlyingFish()
 
-# Call the methods and observe the outputs
 print("--- Calling FlyingFish methods ---")
 flying_fish.fly()
 flying_fish.swim()
 flying_fish.habitat()
 
-# Investigate the Method Resolution Order (MRO)
 print("\n--- Method Resolution Order (MRO) for FlyingFish ---")
 print(FlyingFish.mro())
